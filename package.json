@@ -1,0 +1,13 @@
+{
+  "name": "next-prisma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \"cd ./server & yarn dev\" \"cd ./src & yarn dev\"",
+    "deps": "concurrently \"cd ./server & yarn\" \"cd ./src & yarn\""
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
